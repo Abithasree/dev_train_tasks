@@ -71,10 +71,24 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-    <groupId>org.hibernate.javax.persistence</groupId>
-    <artifactId>hibernate-jpa-2.1-api</artifactId>
-    <version>1.0.0.Final</version>
-</dependency>
+		    <groupId>org.hibernate.javax.persistence</groupId>
+		    <artifactId>hibernate-jpa-2.1-api</artifactId>
+		    <version>1.0.0.Final</version>
+		</dependency>
+		
+		<!--this is for redis-->
+		<dependency>
+		    <groupId>io.lettuce</groupId>
+		    <artifactId>lettuce-core</artifactId>
+		    <version>6.3.2.RELEASE</version> <!-- Check for the latest version on Maven Central -->
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-data-redis</artifactId>
+		    <version>3.3.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
