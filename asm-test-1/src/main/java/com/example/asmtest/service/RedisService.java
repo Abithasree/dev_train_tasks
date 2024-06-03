@@ -28,7 +28,7 @@ public class RedisService {
             return "Success";
         } catch (Exception e) {
             e.printStackTrace();
-            return e.getMessage();
+            return "Failed";
         }
     }
 
