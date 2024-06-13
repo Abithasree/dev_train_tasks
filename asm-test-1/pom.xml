@@ -19,9 +19,9 @@
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
 		 <dependency>
-        <groupId>org.springframework.kafka</groupId>
-        <artifactId>spring-kafka</artifactId>
-    </dependency>
+	        <groupId>org.springframework.kafka</groupId>
+	        <artifactId>spring-kafka</artifactId>
+   		 </dependency>
 
 		<dependency>
             <groupId>jakarta.persistence</groupId>
